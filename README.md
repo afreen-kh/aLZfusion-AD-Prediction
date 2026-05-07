@@ -51,8 +51,7 @@ matplotlib joblib
 Data used in this study were obtained from the Alzheimer's Disease 
 Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). 
 Researchers wishing to use the raw ADNI data must apply for access 
-at the ADNI website. The preprocessed modelling dataset 
-(df_model.csv) is provided here for reproducibility purposes.
+at the ADNI website. 
 
 ---
 
