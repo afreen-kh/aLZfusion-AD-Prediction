@@ -27,30 +27,6 @@ combinations of 6 base classifiers.
 
 ---
 
-## Repository Structure
-
-aLZfusion-AD-Prediction/
-│
-├── data/
-│   └── df_model.csv          # Final model-ready dataset (3,390 x 21)
-├── notebooks/
-│   ├── DATA CLEAN.ipynb      # Preprocessing pipeline
-│   ├── Modeling Fusion.ipynb # Main modeling notebook
-│   └── fix_shap.py           # SHAP figure generation
-├── models/
-│   ├── standard_model_cv10.pkl
-│   ├── proposed_model_cv10.pkl
-│   ├── standard_model_cv5.pkl
-│   └── proposed_model_cv5.pkl
-└── figures/
-├── shap_cv10_fixed.png
-├── shap_cv5_fixed.png
-├── accuracy_cv10.png
-└── accuracy_cv5.png
-
-
----
-
 ## Requirements
 python >= 3.8
 scikit-learn
