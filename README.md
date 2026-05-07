@@ -55,36 +55,4 @@ at the ADNI website.
 
 ---
 
-## How to Reproduce Results
 
-1. Clone the repository:
-```bash
-git clone https://github.com/[your-username]/aLZfusion-AD-Prediction
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. To retrain models, run:
-notebooks/Modeling Fusion.ipynb
-
-4. To load saved models and evaluate directly:
-```python
-import joblib
-import pandas as pd
-
-df = pd.read_csv('data/df_model.csv')
-X = df.drop('converted', axis=1)
-y = df['converted']
-
-model = joblib.load('models/proposed_model_cv10.pkl')
-predictions = model.predict(X)
-```
-
----
-
-## Contact
-For questions regarding the dataset or methodology, please open 
-a GitHub Issue or contact the author.
