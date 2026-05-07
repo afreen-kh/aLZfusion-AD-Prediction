@@ -1,5 +1,4 @@
-# aLZfusion: A Neuro-Fusion Stacked Ensemble Framework 
-# for Alzheimer's Disease Risk Prediction
+# aLZfusion: A Neuro-Fusion Stacked Ensemble Framework for Alzheimer's Disease Risk Prediction
 
 ## Overview
 This repository contains the full implementation of the aLZfusion 
